@@ -9,4 +9,7 @@ version '1.0.0'
 
 client_scripts {
     'client.lua'
-} 
+}
+
+
+disable_voice_system 'true' 
