@@ -14,9 +14,8 @@ AddEventHandler('onClientResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then
         return
     end
-    
+
     DisableVoice()
-    print('[Voice] Ses sistemi devre dışı bırakıldı.')
 end)
 
 
